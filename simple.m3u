@@ -1,0 +1,77 @@
+#EXTM3U
+
+# SimpleIPTV - IPTV playlist in M3U format with 📺 TV channels in 🇵🇹 Portuguese. Public and official streams only.
+
+# 📺 TV
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#KODIPROP:inputstream=inputstream.adaptive
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#KODIPROP:inputstream=inputstream.adaptive
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xMS8yMDI1IDY6Njo0NCBQTSZoYXNoX3ZhbHVlPVdSVHQ5d0VCOGtNUlpQS2g0N3p0aEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01ZjIzOWE3ZS05OGM5LTRmZDktOWYyNS1hMDI3YzY5OGJlYWI=/
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
+#KODIPROP:inputstream=inputstream.adaptive
+#EXTVLCOPT:http-referrer=https://sic.pt/
+#https://sicnot.live.impresa.pt/sicnot.m3u8
+https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+#KODIPROP:inputstream=inputstream.adaptive
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xMS8yMDI1IDY6Njo0NSBQTSZoYXNoX3ZhbHVlPThEZm1iWDhVTG11UFBzbzlxTy9BT2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD04OWI4NmQ0Zi1kM2QwLTQyZDQtOTc0NC01MWI5MTY5YWM5NjQ=/
+
+#EXTINF:-1 group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
+#KODIPROP:inputstream=inputstream.adaptive
+https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
+#KODIPROP:inputstream=inputstream.adaptive
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TVIInternacional.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xMS8yMDI1IDY6Njo0NSBQTSZoYXNoX3ZhbHVlPVIxanBocmhSRDQvZGswOEdaeDJmb1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iMDA0YjVkOS03Nzk3LTRkZjAtYTA5Mi04MTM3MTdjZjE4NzQ=/
+
+#EXTINF:-1 group-title="TV" tvg-id="SICAltaDefinicao.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Alta-Definição.png",SIC Alta Definição
+#KODIPROP:inputstream=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://opto.sic.pt/
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
+#KODIPROP:inputstream=inputstream.adaptive
+https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cinemonde.png",Cinemonde
+#KODIPROP:inputstream=inputstream.adaptive
+https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MyTimeMovieNetwork.br" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png",MyTime Movie Network (BR)
+#KODIPROP:inputstream=inputstream.adaptive
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MovieSphere.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg",MovieSphere
+#KODIPROP:inputstream=inputstream.adaptive
+https://moviesphereuk-samsunguk.amagi.tv/1080p-vtt/index.m3u8
